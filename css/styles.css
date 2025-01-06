@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.features, .how-it-works, .data-section, .tech-talent {
+    padding: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.steps div {
+    width: 20%;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.tile {
+    width: 150px;
+    height: 150px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tile:hover {
+    background-color: #0056b3;
+}
